@@ -2,6 +2,7 @@
 var metaGridNs = metaGridNs || {};
 
 var Metagrid = (function () {
+
     var options = {
             placeholder: 'body',
             id: 'divGrid',          // id for the grid container

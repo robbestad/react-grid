@@ -5,7 +5,7 @@
   "expr": true,
   "globalstrict": true,
   "browser": true,
-    "globals": {
+  "globals": {
     "Buffer": false,
     "strict": true,
     "require": false,
