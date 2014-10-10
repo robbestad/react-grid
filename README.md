@@ -16,14 +16,6 @@ In action, press `g` to activate and toggle. Press `h` while holding `g` to make
 
     var Metagrid = require('react-grid');
 
-    MyComponent = React.createClass({
-      render: function() {
-         return (
-          <Metagrid />
-        );
-      }
-    });
-
 [1]: https://facebook.github.io/react/
 [2]: http://demo2.inmetainteraktiv.no/Metagrid/
 [3]: http://www.inmeta.no/
