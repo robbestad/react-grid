@@ -1,7 +1,6 @@
-(function () {
-    "use strict";
-})();
+/*jshint strict: true, browser:true */
 
+"use strict";
 var metaGridNs = metaGridNs || {};
 
 var Metagrid = (function () {
@@ -15,10 +14,10 @@ var Metagrid = (function () {
         overlay,
         sticky = false,
         overlayOn = false,
-        overlayEl, row;
+        overlayEl, row, overlayCookie, state;
 
     // Remove any conflicting overlay
-    if (null != document.getElementById(options.id)) {
+    if (null !== document.getElementById(options.id)) {
         document.getElementById(options.id).remove()
     }
 
@@ -32,7 +31,7 @@ var Metagrid = (function () {
     overlay.innerHTML = '<div class="container"><div class="row"></div></div>';
     row = document.getElementById(options.id).getElementsByClassName('row')[0];
 
-    for (i = 0; i < 12; i++) {
+    for (var i = 0; i < 12; i++) {
         var rowEl = document.createElement('div');
         rowEl.className = "col-xs-1 col-sm-1 col-md-1 col-lg-1";
         row.appendChild(rowEl);
@@ -90,7 +89,6 @@ var Metagrid = (function () {
 
     function keyupHandler(e) {
         var k = getKey(e);
-        var m = getModifier(e);
         if (k && (k == options.showGridKey) && !sticky) {
             removeClass(document.body, 'grid');
             overlayOn = false;
