@@ -19,3 +19,5 @@ In action, press `g` to activate and toggle. Press `h` while holding `g` to make
         );
       }
     });
+
+[1]: https://facebook.github.io/react/
