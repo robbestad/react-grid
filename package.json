@@ -1,0 +1,42 @@
+{
+  "name": "react-grid",
+  "version": "1.0.1",
+  "description": "Metagrid is a visual HTML gridsystem on top of Bootstrap 3 designs developed by Inmeta Interaktiv. React-grid is a react component based on Metagrid.",
+  "main": "index.js",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">=0.10.0"
+  },
+  "devDependencies": {
+    "describe": "^1.2.0",
+    "jquery": "^2.1.1",
+    "jsdom": "^1.0.1",
+    "jshint": "~2.4.3",
+    "mocha": "~1.17.1",
+    "react": "~0.10.0",
+    "semver": "~2.2.1",
+    "should": "^4.0.4",
+    "underscore": "^1.7.0",
+    "zombie": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:svenanders/react-grid.git"
+  },
+  "homepage": "https://github.com/svenanders/react-grid",
+  "keywords": [
+    "react",
+    "react-component",
+    "grid",
+    "metagrid",
+    "inmeta",
+    "component"
+  ],
+  "author": {
+    "name": "Sven Anders Robbestad",
+    "email": "anders@robbestad.com",
+    "url": "http://www.robbestad.com"
+  },
+  "scripts": {},
+  "license": "MIT"
+}
