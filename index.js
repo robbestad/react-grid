@@ -1,5 +1,3 @@
-/*jshint strict: true, browser:true */
-
 "use strict";
 var metaGridNs = metaGridNs || {};
 
