@@ -51,6 +51,7 @@ body.grid {
     }
     .row {
       height: 100%;
+      background: transparent;
     }
     .row .col-xs-1, #divGrid .row .col-sm-1, #divGrid .row .col-md-1, #divGrid .row .col-lg-1 {
       padding: 0px !important;
